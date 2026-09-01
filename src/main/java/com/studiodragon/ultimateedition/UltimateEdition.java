@@ -1,5 +1,8 @@
 package com.studiodragon.ultimateedition;
 
+import com.studiodragon.ultimateedition.block.ModBlocks;
+import com.studiodragon.ultimateedition.item.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -32,6 +35,9 @@ public class UltimateEdition {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
@@ -45,6 +51,9 @@ public class UltimateEdition {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.PLASTER);
+        }
 
     }
 
