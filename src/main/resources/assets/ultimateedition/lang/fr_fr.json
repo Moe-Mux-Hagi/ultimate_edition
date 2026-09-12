@@ -1,3 +1,16 @@
 {
-  "block.ultimateedition.plaster": "Plâtre"
+  "advancements.adventure.crown_legendary_pig.description": "Technoblade ne meurt jamais!",
+  "advancements.adventure.crown_legendary_pig.title": "C'est quoi ? Un Roi ?",
+
+  "block.ultimateedition.flowering_spruce_leaves": "Feuilles de sapin fleuries",
+  "block.ultimateedition.pinecone_block": "Bloc de pomme de pin",
+  "block.ultimateedition.plaster": "Plâtre",
+
+  "entity.mccourse.eversource": "Éternasource",
+  "entity.mccourse.legendary_pig": "Sacré cochon",
+
+  "item.ultimateedition.acorn": "Gland",
+  "item.ultimateedition.eversource_crown": "Couronne de l'Éternasource",
+  "item.ultimateedition.eversource_spawn_egg": "Oeuf d'apparition d'Éternasource",
+  "item.ultimateedition.pinecone": "Pomme de pin"
 }

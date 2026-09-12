@@ -1,7 +1,261 @@
 {
   "variants": {
-    "": {
-      "model": "ultimateedition:block/plaster"
-    }
+    "": [
+      {
+        "model": "ultimateedition:block/plaster"
+      },
+      {
+        "model": "ultimateedition:block/plaster",
+        "x": 90
+      },
+      {
+        "model": "ultimateedition:block/plaster",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "ultimateedition:block/plaster",
+        "x": 90,
+        "y": 90,
+        "z": 90
+      },
+      {
+        "model": "ultimateedition:block/plaster",
+        "x": 90,
+        "y": 90,
+        "z": 180
+      },
+      {
+        "model": "ultimateedition:block/plaster",
+        "x": 90,
+        "y": 90,
+        "z": 270
+      },
+      {
+        "model": "ultimateedition:block/plaster",
+        "x": 90,
+        "y": 180
+      },
+      {
+        "model": "ultimateedition:block/plaster",
+        "x": 90,
+        "y": 180,
+        "z": 90
+      },
+      {
+        "model": "ultimateedition:block/plaster",
+        "x": 90,
+        "y": 180,
+        "z": 180
+      },
+      {
+        "model": "ultimateedition:block/plaster",
+        "x": 90,
+        "y": 180,
+        "z": 270
+      },
+      {
+        "model": "ultimateedition:block/plaster",
+        "x": 90,
+        "y": 270
+      },
+      {
+        "model": "ultimateedition:block/plaster",
+        "x": 90,
+        "y": 270,
+        "z": 90
+      },
+      {
+        "model": "ultimateedition:block/plaster",
+        "x": 90,
+        "y": 270,
+        "z": 180
+      },
+      {
+        "model": "ultimateedition:block/plaster",
+        "x": 90,
+        "y": 270,
+        "z": 270
+      },
+      {
+        "model": "ultimateedition:block/plaster",
+        "x": 180
+      },
+      {
+        "model": "ultimateedition:block/plaster",
+        "x": 180,
+        "y": 90
+      },
+      {
+        "model": "ultimateedition:block/plaster",
+        "x": 180,
+        "y": 90,
+        "z": 90
+      },
+      {
+        "model": "ultimateedition:block/plaster",
+        "x": 180,
+        "y": 90,
+        "z": 180
+      },
+      {
+        "model": "ultimateedition:block/plaster",
+        "x": 180,
+        "y": 90,
+        "z": 270
+      },
+      {
+        "model": "ultimateedition:block/plaster",
+        "x": 180,
+        "y": 180
+      },
+      {
+        "model": "ultimateedition:block/plaster",
+        "x": 180,
+        "y": 180,
+        "z": 90
+      },
+      {
+        "model": "ultimateedition:block/plaster",
+        "x": 180,
+        "y": 180,
+        "z": 180
+      },
+      {
+        "model": "ultimateedition:block/plaster",
+        "x": 180,
+        "y": 180,
+        "z": 270
+      },
+      {
+        "model": "ultimateedition:block/plaster",
+        "x": 180,
+        "y": 270
+      },
+      {
+        "model": "ultimateedition:block/plaster",
+        "x": 180,
+        "y": 270,
+        "z": 90
+      },
+      {
+        "model": "ultimateedition:block/plaster",
+        "x": 180,
+        "y": 270,
+        "z": 180
+      },
+      {
+        "model": "ultimateedition:block/plaster",
+        "x": 270
+      },
+      {
+        "model": "ultimateedition:block/plaster",
+        "x": 270,
+        "y": 90
+      },
+      {
+        "model": "ultimateedition:block/plaster",
+        "x": 270,
+        "y": 90,
+        "z": 90
+      },
+      {
+        "model": "ultimateedition:block/plaster",
+        "x": 270,
+        "y": 90,
+        "z": 180
+      },
+      {
+        "model": "ultimateedition:block/plaster",
+        "x": 270,
+        "y": 90,
+        "z": 270
+      },
+      {
+        "model": "ultimateedition:block/plaster",
+        "x": 270,
+        "y": 180
+      },
+      {
+        "model": "ultimateedition:block/plaster",
+        "x": 270,
+        "y": 180,
+        "z": 90
+      },
+      {
+        "model": "ultimateedition:block/plaster",
+        "x": 270,
+        "y": 180,
+        "z": 180
+      },
+      {
+        "model": "ultimateedition:block/plaster",
+        "x": 270,
+        "y": 180,
+        "z": 270
+      },
+      {
+        "model": "ultimateedition:block/plaster",
+        "x": 270,
+        "y": 270
+      },
+      {
+        "model": "ultimateedition:block/plaster",
+        "x": 270,
+        "y": 270,
+        "z": 90
+      },
+      {
+        "model": "ultimateedition:block/plaster",
+        "x": 270,
+        "y": 270,
+        "z": 180
+      },
+      {
+        "model": "ultimateedition:block/plaster",
+        "x": 270,
+        "y": 270,
+        "z": 270
+      },
+      {
+        "model": "ultimateedition:block/plaster",
+        "y": 90
+      },
+      {
+        "model": "ultimateedition:block/plaster",
+        "y": 180
+      },
+      {
+        "model": "ultimateedition:block/plaster",
+        "y": 270
+      },
+      {
+        "model": "ultimateedition:block/plaster",
+        "z": 90
+      },
+      {
+        "model": "ultimateedition:block/plaster",
+        "z": 180
+      },
+      {
+        "model": "ultimateedition:block/plaster",
+        "z": 270
+      },
+      {
+        "model": "ultimateedition:block/plaster_mirrored"
+      },
+      {
+        "model": "ultimateedition:block/plaster_mirrored",
+        "y": 90
+      },
+      {
+        "model": "ultimateedition:block/plaster_mirrored",
+        "y": 180
+      },
+      {
+        "model": "ultimateedition:block/plaster_mirrored",
+        "y": 270
+      }
+    ]
   }
 }

@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "crown_legendary_pig": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:pig"
+            }
+          }
+        ],
+        "item": {
+          "items": "ultimateeversource:eversource_crown"
+        }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.adventure.crown_legendary_pig.description"
+    },
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:potato"
+    },
+    "title": {
+      "translate": "advancements.adventure.crown_legendary_pig.title"
+    }
+  },
+  "requirements": [
+    [
+      "crown_legendary_pig"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,3 +1,17 @@
 {
-  "block.ultimateedition.plaster": "Wallage"
+  "advancements.adventure.crown_legendary_pig.description": "Cap'n Teck never walks the plank!",
+  "advancements.adventure.crown_legendary_pig.title": "Be He the Pirate King?",
+
+  "block.ultimateedition.flowering_oak_leaves": "Leaves o' flower oak",
+  "block.ultimateedition.flowering_spruce_leaves": "Leaves o' flower spruce",
+  "block.ultimateedition.pinecone_block": "Chunk o' woodfruit",
+  "block.ultimateedition.plaster": "Wallage",
+
+  "entity.mccourse.eversource": "Hen o' Plenty",
+  "entity.mccourse.legendary_pig": "Hog o' Tales",
+
+  "item.ultimateedition.acorn": "Oak nut",
+  "item.ultimateedition.eversource_crown": "Crown o' Plenty",
+  "item.ultimateedition.eversource_spawn_egg": "Hen o' Plenty Cackle Fruit",
+  "item.ultimateedition.pinecone": "Woodflower"
 }

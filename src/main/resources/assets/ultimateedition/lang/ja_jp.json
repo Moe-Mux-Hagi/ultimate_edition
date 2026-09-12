@@ -1,3 +1,16 @@
 {
-  "block.ultimateedition.plaster": "石膏"
+  "advancements.adventure.crown_legendary_pig.description": "Technoblade never dies!",
+  "advancements.adventure.crown_legendary_pig.title": "Is He Some Kind of King?",
+
+  "block.ultimateedition.flowering_spruce_leaves": "開花したトウヒの葉",
+  "block.ultimateedition.pinecone_block": "松ぼっくりブロック",
+  "block.ultimateedition.plaster": "石膏",
+
+  "entity.mccourse.eversource": "エヴァ－ソ－ス",
+  "entity.mccourse.legendary_pig": "Legendary Pig",
+
+  "item.ultimateedition.acorn": "どんぐり",
+  "item.ultimateedition.eversource_crown": "エヴァ－ソ－スの王冠",
+  "item.ultimateedition.eversource_spawn_egg": "エヴァ－ソ－スのスポ－ンエッグ",
+  "item.ultimateedition.pinecone": "松ぼっくり"
 }

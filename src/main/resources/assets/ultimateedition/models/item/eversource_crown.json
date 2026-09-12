@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "neoforge:separate_transforms",
+  "base": {
+    "parent": "ultimateedition:item/eversource_crown_model"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "ultimateedition:item/eversource_crown_item"
+    },
+    "ground": {
+      "parent": "ultimateedition:item/eversource_crown_model"
+    },
+    "fixed": {
+      "parent": "ultimateedition:item/eversource_crown_item"
+    }
+  }
+}

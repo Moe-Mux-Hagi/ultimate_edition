@@ -1,0 +1,75 @@
+{
+	"textures": {
+		"0": "minecraft:block/red_tulip",
+		"particle": "minecraft:block/red_tulip"
+	},
+	"elements": [
+		{
+			"name": "pane_1",
+			"from": [8, 0, 0],
+			"to": [8, 16, 16],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [3, 0, 3, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 0, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "pane_2",
+			"from": [8, 0, 0],
+			"to": [8, 16, 16],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [3, 0, 3, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 0, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "petals_out",
+			"from": [6, 10, 6],
+			"to": [9, 13, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 10, 6]},
+			"faces": {
+				"north": {"uv": [6, 3, 9, 6], "texture": "#0"},
+				"east": {"uv": [6, 3, 9, 6], "texture": "#0"},
+				"south": {"uv": [6, 3, 9, 6], "texture": "#0"},
+				"west": {"uv": [6, 3, 9, 6], "texture": "#0"},
+				"up": {"uv": [9, 3, 12, 6], "texture": "#0"},
+				"down": {"uv": [9, 3, 12, 6], "texture": "#0"}
+			}
+		},
+		{
+			"name": "petals_in",
+			"from": [9, 10, 6],
+			"to": [6, 13, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 10, 6]},
+			"faces": {
+				"north": {"uv": [6, 3, 9, 6], "texture": "#0"},
+				"east": {"uv": [6, 3, 9, 6], "texture": "#0"},
+				"south": {"uv": [6, 3, 9, 6], "texture": "#0"},
+				"west": {"uv": [6, 3, 9, 6], "texture": "#0"},
+				"up": {"uv": [9, 3, 12, 6], "texture": "#0"},
+				"down": {"uv": [9, 3, 12, 6], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		0,
+		1,
+		{
+			"name": "petals",
+			"origin": [7, 10, 6],
+			"scope": 0,
+			"color": 0,
+			"children": [2, 3]
+		}
+	]
+}

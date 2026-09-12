@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "ultimateedition:block/pinecone_block_bottom",
+    "side": "ultimateedition:block/pinecone_block_side",
+    "top": "ultimateedition:block/pinecone_block_top"
+  }
+}

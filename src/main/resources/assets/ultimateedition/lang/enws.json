@@ -1,3 +1,17 @@
 {
-  "block.ultimateedition.plaster": "Daub"
+  "advancements.adventure.crown_legendary_pig.description": "The Lord of Tecke shall prevail!",
+  "advancements.adventure.crown_legendary_pig.title": "Which Manner of Nobility Art Thou?",
+
+  "block.ultimateedition.flowering_oak_leaves": "Flowering Oaken Leaves",
+  "block.ultimateedition.flowering_spruce_leaves": "Flowering Pine Needles",
+  "block.ultimateedition.pinecone_block": "Block of Strobilus",
+  "block.ultimateedition.plaster": "Daub",
+
+  "entity.mccourse.eversource": "Ev'rsource",
+  "entity.mccourse.legendary_pig": "Mythical Swine",
+
+  "item.ultimateedition.acorn": "Nutlet",
+  "item.ultimateedition.eversource_crown": "Ev'rsource Crown",
+  "item.ultimateedition.eversource_spawn_egg": "Adder Stone o' Ev'rsource",
+  "item.ultimateedition.pinecone": "Strobilus"
 }

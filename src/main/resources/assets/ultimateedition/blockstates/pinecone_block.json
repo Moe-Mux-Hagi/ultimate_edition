@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "ultimateedition:block/pinecone_block",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "ultimateedition:block/pinecone_block",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "ultimateedition:block/pinecone_block",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "ultimateedition:block/pinecone_block",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "ultimateedition:block/pinecone_block"
+    },
+    "facing=west": {
+      "model": "ultimateedition:block/pinecone_block",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

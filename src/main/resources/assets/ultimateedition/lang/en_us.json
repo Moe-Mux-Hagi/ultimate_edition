@@ -1,3 +1,31 @@
 {
-  "block.ultimateedition.plaster": "Plaster"
+  "advancements.adventure.crown_legendary_pig.description": "Technoblade never dies!",
+  "advancements.adventure.crown_legendary_pig.title": "Is He Some Kind of King?",
+
+  "block.ultimateedition.flowering_acacia_leaves": "Flowering Acacia Leaves",
+  "block.ultimateedition.flowering_birch_leaves": "Flowering Birch Leaves",
+  "block.ultimateedition.flowering_cherry_leaves": "Flowering Cherry Leaves",
+  "block.ultimateedition.flowering_dark_oak_leaves": "Flowering Dark Oak Leaves",
+  "block.ultimateedition.flowering_jungle_leaves": "Flowering Jungle Leaves",
+  "block.ultimateedition.flowering_oak_leaves": "Flowering Oak Leaves",
+  "block.ultimateedition.flowering_spruce_leaves": "Flowering Spruce Leaves",
+  "block.ultimateedition.pinecone_block": "Block of Pinecone",
+  "block.ultimateedition.plaster": "Plaster",
+
+  "entity.mccourse.eversource": "Eversource",
+  "entity.mccourse.legendary_pig": "Legendary Pig",
+
+  "item.ultimateedition.acorn": "Acorn",
+  "item.ultimateedition.catkin": "Catkin",
+  "item.ultimateedition.cherries": "Cherries",
+  "item.ultimateedition.dark_acorn": "Dark Acorn",
+  "item.ultimateedition.eversource_crown": "Eversource Crown",
+  "item.ultimateedition.eversource_spawn_egg": "Eversource Spawn Egg",
+  "item.ultimateedition.pine_nuts": "Pine Nuts",
+  "item.ultimateedition.pinecone": "Pinecone",
+  "item.ultimateedition.pod": "Pod",
+  "item.ultimateedition.roasted_dark_acorn": "Roasted Dark Acorn",
+  "item.ultimateedition.roasted_acorn": "Roasted Acorn",
+  "item.ultimateedition.roasted_pine_nuts": "Toasted Pine Nuts",
+  "item.ultimateedition.sky_fruit": "Sky Fruit"
 }
