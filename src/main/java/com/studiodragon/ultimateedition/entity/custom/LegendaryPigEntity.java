@@ -27,7 +27,7 @@ public class LegendaryPigEntity extends Animal {
         super(entityType, level);
     }
 
-    //Base AI goals
+    //region Base AI goals
     @Override
     protected void registerGoals() {
         this.goalSelector.addGoal(0, new FloatGoal(this));
@@ -39,8 +39,9 @@ public class LegendaryPigEntity extends Animal {
         this.goalSelector.addGoal(6, new LookAtPlayerGoal(this, Player.class,6.0F));
         this.goalSelector.addGoal(7, new RandomLookAroundGoal(this));
     }
+    //endregion
 
-    //Attributes
+    //region Attributes
     public static AttributeSupplier.Builder createAttributes() {
         return Animal.createLivingAttributes()
                 .add(Attributes.MAX_HEALTH, 40.0F)
@@ -48,21 +49,24 @@ public class LegendaryPigEntity extends Animal {
                 .add(Attributes.FOLLOW_RANGE, 6.0F);
 
     }
+    //endregion
 
-    //Food
+    //region Food
     @Override
     public boolean isFood(ItemStack stack) {
         return stack.is(Items.POTATO);
     }
+    //endregion
 
-    //Baby
+    //region Baby
     @Nullable
     @Override
     public AgeableMob getBreedOffspring(@NotNull ServerLevel level, @NotNull AgeableMob otherParent) {
         return ModEntities.LEGENDARY_PIG.get().create(level);
     }
+    //endregion
 
-    //Animations
+    //region Animations
     private void setupAnimationState() {
         if (this.idleAnimationTimeout <= 0) {
             this.idleAnimationTimeout = 20;
@@ -80,8 +84,9 @@ public class LegendaryPigEntity extends Animal {
             this.setupAnimationState();
         }
     }
+    //endregion
 
-    //Sounds
+    //region Sounds
     @Override
     protected @Nullable SoundEvent getAmbientSound() {
         return SoundEvents.PIG_AMBIENT;
@@ -96,4 +101,5 @@ public class LegendaryPigEntity extends Animal {
     protected @Nullable SoundEvent getDeathSound() {
         return SoundEvents.PIG_DEATH;
     }
+    //endregion
 }

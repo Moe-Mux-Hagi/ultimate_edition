@@ -21,17 +21,79 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.@NotNull Provider provider) {
+        //region Modded block tags
         tag(ModTags.Blocks.FLOWERING_LEAVES)
+                .add(ModBlocks.FLOWERING_ACACIA_LEAVES.get())
+                .add(ModBlocks.FLOWERING_APPLE_LEAVES.get())
+                .add(ModBlocks.FLOWERING_BIRCH_LEAVES.get())
+                .add(ModBlocks.FLOWERING_CHERRY_LEAVES.get())
                 .add(ModBlocks.FLOWERING_DARK_OAK_LEAVES.get())
+                .add(ModBlocks.FLOWERING_JUNGLE_LEAVES.get())
                 .add(ModBlocks.FLOWERING_OAK_LEAVES.get())
+                .add(ModBlocks.FLOWERING_ORANGE_LEAVES.get())
+                .add(ModBlocks.FLOWERING_PEAR_LEAVES.get())
                 .add(ModBlocks.FLOWERING_SPRUCE_LEAVES.get());
+        //endregion
+
+        //region Vanilla block tags
+        tag(BlockTags.FENCES)
+                .add(ModBlocks.APPLE_FENCE.get())
+                .add(ModBlocks.ORANGE_FENCE.get())
+                .add(ModBlocks.PEAR_FENCE.get());
+        tag(BlockTags.FENCE_GATES)
+                .add(ModBlocks.APPLE_FENCE_GATE.get())
+                .add(ModBlocks.ORANGE_FENCE_GATE.get())
+                .add(ModBlocks.PEAR_FENCE_GATE.get());
+
+        tag(BlockTags.LEAVES)
+                .add(ModBlocks.APPLE_LEAVES.get())
+                .add(ModBlocks.FLOWERING_ACACIA_LEAVES.get())
+                .add(ModBlocks.FLOWERING_APPLE_LEAVES.get())
+                .add(ModBlocks.FLOWERING_BIRCH_LEAVES.get())
+                .add(ModBlocks.FLOWERING_CHERRY_LEAVES.get())
+                .add(ModBlocks.FLOWERING_DARK_OAK_LEAVES.get())
+                .add(ModBlocks.FLOWERING_JUNGLE_LEAVES.get())
+                .add(ModBlocks.FLOWERING_OAK_LEAVES.get())
+                .add(ModBlocks.FLOWERING_ORANGE_LEAVES.get())
+                .add(ModBlocks.FLOWERING_PEAR_LEAVES.get())
+                .add(ModBlocks.FLOWERING_SPRUCE_LEAVES.get())
+                .add(ModBlocks.ORANGE_LEAVES.get())
+                .add(ModBlocks.PEAR_LEAVES.get());
+
+
         tag(BlockTags.MINEABLE_WITH_AXE)
                 .add(ModBlocks.PINECONE_BLOCK.get());
         tag(BlockTags.MINEABLE_WITH_HOE)
+                .add(ModBlocks.FLOWERING_ACACIA_LEAVES.get())
+                .add(ModBlocks.FLOWERING_APPLE_LEAVES.get())
+                .add(ModBlocks.FLOWERING_BIRCH_LEAVES.get())
+                .add(ModBlocks.FLOWERING_CHERRY_LEAVES.get())
                 .add(ModBlocks.FLOWERING_DARK_OAK_LEAVES.get())
+                .add(ModBlocks.FLOWERING_JUNGLE_LEAVES.get())
                 .add(ModBlocks.FLOWERING_OAK_LEAVES.get())
+                .add(ModBlocks.FLOWERING_ORANGE_LEAVES.get())
+                .add(ModBlocks.FLOWERING_PEAR_LEAVES.get())
                 .add(ModBlocks.FLOWERING_SPRUCE_LEAVES.get());
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.PLASTER.get());
+
+        this.tag(BlockTags.LOGS_THAT_BURN)
+                .add(ModBlocks.APPLE_LOG.get())
+                .add(ModBlocks.STRIPPED_APPLE_LOG.get())
+                .add(ModBlocks.APPLE_WOOD.get())
+                .add(ModBlocks.STRIPPED_APPLE_WOOD.get())
+                .add(ModBlocks.AZALEA_LOG.get())
+                .add(ModBlocks.STRIPPED_AZALEA_LOG.get())
+                .add(ModBlocks.AZALEA_WOOD.get())
+                .add(ModBlocks.STRIPPED_AZALEA_WOOD.get())
+                .add(ModBlocks.ORANGE_LOG.get())
+                .add(ModBlocks.STRIPPED_ORANGE_LOG.get())
+                .add(ModBlocks.ORANGE_WOOD.get())
+                .add(ModBlocks.STRIPPED_ORANGE_WOOD.get())
+                .add(ModBlocks.PEAR_LOG.get())
+                .add(ModBlocks.STRIPPED_PEAR_LOG.get())
+                .add(ModBlocks.PEAR_WOOD.get())
+                .add(ModBlocks.STRIPPED_PEAR_WOOD.get());
+        //endregion
     }
 }

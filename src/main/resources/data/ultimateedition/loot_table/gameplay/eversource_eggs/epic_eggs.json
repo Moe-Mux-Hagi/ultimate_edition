@@ -1,0 +1,70 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:camel_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:horse_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:donkey_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wolf_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cat_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wither_skeleton_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:creeper_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tadpole_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mooshroom_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:llama_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dolphin_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armadillo_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ocelot_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shulker_spawn_egg"
+        }
+      ]
+    }
+  ]
+}

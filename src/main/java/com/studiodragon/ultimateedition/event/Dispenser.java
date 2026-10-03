@@ -1,6 +1,6 @@
 package com.studiodragon.ultimateedition.event;
 
-import com.studiodragon.ultimateedition.world.level.block.FloweringLeavesBlock;
+import com.studiodragon.ultimateedition.block.custom.FloweringLeavesBlock;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.core.dispenser.BlockSource;

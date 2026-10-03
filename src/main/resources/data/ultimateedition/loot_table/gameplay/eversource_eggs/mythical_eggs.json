@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ultimateedition:eversource_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_dragon_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warden_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wither_spawn_egg"
+        }
+      ]
+    }
+  ]
+}

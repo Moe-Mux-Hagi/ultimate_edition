@@ -16,11 +16,14 @@ public class ModFoodProperties {
     public static final FoodProperties NUT = new FoodProperties.Builder()
             .nutrition(1)
             .saturationModifier(0.5f).build();
-
     public static final FoodProperties DARK_ACORN = new FoodProperties.Builder()
             .nutrition(1)
             .saturationModifier(0.5f)
             .effect(() -> new MobEffectInstance(MobEffects.DARKNESS, 200), 0.65f).build();
+    public static final FoodProperties PALE_ACORN = new FoodProperties.Builder()
+            .nutrition(1)
+            .saturationModifier(0.5f)
+            .effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 200), 0.65f).build();
 
     public static final FoodProperties POD = new FoodProperties.Builder()
             .nutrition(1)

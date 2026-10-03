@@ -1,0 +1,74 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chicken_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cow_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pig_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sheep_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:goat_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bee_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fox_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:zombie_villager_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wandering_trader_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:parrot_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ghast_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:snow_golem_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pufferfish_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tropical_fish_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cave_spider_spawn_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rabbit_spawn_egg"
+        }
+      ]
+    }
+  ]
+}

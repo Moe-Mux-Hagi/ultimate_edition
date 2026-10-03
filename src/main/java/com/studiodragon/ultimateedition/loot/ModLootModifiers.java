@@ -13,6 +13,8 @@ public class ModLootModifiers {
     public static final  DeferredRegister<MapCodec<? extends IGlobalLootModifier>> LOOT_MODIFIER_SERIALIZERS = DeferredRegister.create(NeoForgeRegistries.Keys.GLOBAL_LOOT_MODIFIER_SERIALIZERS, UltimateEdition.MOD_ID);
 
     public static final Supplier<MapCodec<? extends IGlobalLootModifier>> ADD_ITEM = LOOT_MODIFIER_SERIALIZERS.register("add_item", () -> AddItemModifier.CODEC);
+    public static final Supplier<MapCodec<? extends IGlobalLootModifier>> REMOVE_ITEM = LOOT_MODIFIER_SERIALIZERS.register("remove_item", () -> RemoveItemModifier.CODEC);
+    public static final Supplier<MapCodec<? extends IGlobalLootModifier>> REMOVE_TAGGED_ITEM = LOOT_MODIFIER_SERIALIZERS.register("remove_tagged_item", () -> RemoveTaggedItemsModifier.CODEC);
 
     public static void register(IEventBus eventBus) {
         LOOT_MODIFIER_SERIALIZERS.register(eventBus);

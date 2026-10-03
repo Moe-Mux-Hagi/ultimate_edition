@@ -41,6 +41,6 @@ public abstract class FruitItem extends Item {
                 return InteractionResult.SUCCESS;
             }
         }
-        return level.isClientSide() ? InteractionResult.SUCCESS : InteractionResult.PASS;
+        return InteractionResult.PASS;
     }
 }
